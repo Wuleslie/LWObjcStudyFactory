@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF6A94AE91081D19A545D86 /* libPods-LWObjcStudyFactory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58D632005BE513FACD03BFE /* libPods-LWObjcStudyFactory.a */; };
+		AF4C2C952158DAB500355CE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C2C942158DAB500355CE3 /* AppDelegate.m */; };
+		AF4C2C982158DAB500355CE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C2C972158DAB500355CE3 /* ViewController.m */; };
+		AF4C2C9B2158DAB500355CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4C2C992158DAB500355CE3 /* Main.storyboard */; };
+		AF4C2C9D2158DAB600355CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4C2C9C2158DAB600355CE3 /* Assets.xcassets */; };
+		AF4C2CA02158DAB600355CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4C2C9E2158DAB600355CE3 /* LaunchScreen.storyboard */; };
+		AF4C2CA32158DAB600355CE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C2CA22158DAB600355CE3 /* main.m */; };
+		AF4C2CB12158DCEE00355CE3 /* LWDrinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C2CB02158DCEE00355CE3 /* LWDrinkModel.m */; };
+		AF4C2CB42158DEC100355CE3 /* LWDrinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C2CB32158DEC100355CE3 /* LWDrinkCell.m */; };
+		AF4C2CB72158DF3D00355CE3 /* LWDrinkCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C2CB62158DF3D00355CE3 /* LWDrinkCellViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9498637E4B73D245FE9427B9 /* Pods-LWObjcStudyFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWObjcStudyFactory.release.xcconfig"; path = "Target Support Files/Pods-LWObjcStudyFactory/Pods-LWObjcStudyFactory.release.xcconfig"; sourceTree = "<group>"; };
+		9C50198704E7E40AE220ABA1 /* Pods-LWObjcStudyFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWObjcStudyFactory.debug.xcconfig"; path = "Target Support Files/Pods-LWObjcStudyFactory/Pods-LWObjcStudyFactory.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4C2C902158DAB500355CE3 /* LWObjcStudyFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWObjcStudyFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4C2C932158DAB500355CE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF4C2C942158DAB500355CE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF4C2C962158DAB500355CE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF4C2C972158DAB500355CE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF4C2C9A2158DAB500355CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4C2C9C2158DAB600355CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4C2C9F2158DAB600355CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4C2CA12158DAB600355CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4C2CA22158DAB600355CE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4C2CAF2158DCEE00355CE3 /* LWDrinkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWDrinkModel.h; sourceTree = "<group>"; };
+		AF4C2CB02158DCEE00355CE3 /* LWDrinkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWDrinkModel.m; sourceTree = "<group>"; };
+		AF4C2CB22158DEC100355CE3 /* LWDrinkCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWDrinkCell.h; sourceTree = "<group>"; };
+		AF4C2CB32158DEC100355CE3 /* LWDrinkCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWDrinkCell.m; sourceTree = "<group>"; };
+		AF4C2CB52158DF3D00355CE3 /* LWDrinkCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWDrinkCellViewModel.h; sourceTree = "<group>"; };
+		AF4C2CB62158DF3D00355CE3 /* LWDrinkCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWDrinkCellViewModel.m; sourceTree = "<group>"; };
+		B58D632005BE513FACD03BFE /* libPods-LWObjcStudyFactory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWObjcStudyFactory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4C2C8D2158DAB500355CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF6A94AE91081D19A545D86 /* libPods-LWObjcStudyFactory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4C2C872158DAB500355CE3 = {
+			isa = PBXGroup;
+			children = (
+				AF4C2C922158DAB500355CE3 /* LWObjcStudyFactory */,
+				AF4C2C912158DAB500355CE3 /* Products */,
+				C446AF090131742508985829 /* Pods */,
+				FB3294832EFCFC9A286F3E9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4C2C912158DAB500355CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C2C902158DAB500355CE3 /* LWObjcStudyFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4C2C922158DAB500355CE3 /* LWObjcStudyFactory */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C2CAA2158DC8B00355CE3 /* Classes */,
+				AF4C2CA92158DC8A00355CE3 /* Resources */,
+				AF4C2C932158DAB500355CE3 /* AppDelegate.h */,
+				AF4C2C942158DAB500355CE3 /* AppDelegate.m */,
+				AF4C2C962158DAB500355CE3 /* ViewController.h */,
+				AF4C2C972158DAB500355CE3 /* ViewController.m */,
+				AF4C2C992158DAB500355CE3 /* Main.storyboard */,
+				AF4C2C9C2158DAB600355CE3 /* Assets.xcassets */,
+				AF4C2C9E2158DAB600355CE3 /* LaunchScreen.storyboard */,
+				AF4C2CA12158DAB600355CE3 /* Info.plist */,
+				AF4C2CA22158DAB600355CE3 /* main.m */,
+			);
+			path = LWObjcStudyFactory;
+			sourceTree = "<group>";
+		};
+		AF4C2CA92158DC8A00355CE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF4C2CAA2158DC8B00355CE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C2CAB2158DC8B00355CE3 /* ViewModels */,
+				AF4C2CAC2158DC8B00355CE3 /* Models */,
+				AF4C2CAD2158DC8B00355CE3 /* ViewControllers */,
+				AF4C2CAE2158DC8B00355CE3 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF4C2CAB2158DC8B00355CE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C2CB52158DF3D00355CE3 /* LWDrinkCellViewModel.h */,
+				AF4C2CB62158DF3D00355CE3 /* LWDrinkCellViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF4C2CAC2158DC8B00355CE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C2CAF2158DCEE00355CE3 /* LWDrinkModel.h */,
+				AF4C2CB02158DCEE00355CE3 /* LWDrinkModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF4C2CAD2158DC8B00355CE3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF4C2CAE2158DC8B00355CE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C2CB22158DEC100355CE3 /* LWDrinkCell.h */,
+				AF4C2CB32158DEC100355CE3 /* LWDrinkCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C446AF090131742508985829 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C50198704E7E40AE220ABA1 /* Pods-LWObjcStudyFactory.debug.xcconfig */,
+				9498637E4B73D245FE9427B9 /* Pods-LWObjcStudyFactory.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB3294832EFCFC9A286F3E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58D632005BE513FACD03BFE /* libPods-LWObjcStudyFactory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4C2C8F2158DAB500355CE3 /* LWObjcStudyFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4C2CA62158DAB600355CE3 /* Build configuration list for PBXNativeTarget "LWObjcStudyFactory" */;
+			buildPhases = (
+				6C3886A31BA2B0CF3B6342DE /* [CP] Check Pods Manifest.lock */,
+				AF4C2C8C2158DAB500355CE3 /* Sources */,
+				AF4C2C8D2158DAB500355CE3 /* Frameworks */,
+				AF4C2C8E2158DAB500355CE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWObjcStudyFactory;
+			productName = LWObjcStudyFactory;
+			productReference = AF4C2C902158DAB500355CE3 /* LWObjcStudyFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4C2C882158DAB500355CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Leslie Studio";
+				TargetAttributes = {
+					AF4C2C8F2158DAB500355CE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AF4C2C8B2158DAB500355CE3 /* Build configuration list for PBXProject "LWObjcStudyFactory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4C2C872158DAB500355CE3;
+			productRefGroup = AF4C2C912158DAB500355CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4C2C8F2158DAB500355CE3 /* LWObjcStudyFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4C2C8E2158DAB500355CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C2CA02158DAB600355CE3 /* LaunchScreen.storyboard in Resources */,
+				AF4C2C9D2158DAB600355CE3 /* Assets.xcassets in Resources */,
+				AF4C2C9B2158DAB500355CE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C3886A31BA2B0CF3B6342DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWObjcStudyFactory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4C2C8C2158DAB500355CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4C2C982158DAB500355CE3 /* ViewController.m in Sources */,
+				AF4C2CB12158DCEE00355CE3 /* LWDrinkModel.m in Sources */,
+				AF4C2CA32158DAB600355CE3 /* main.m in Sources */,
+				AF4C2C952158DAB500355CE3 /* AppDelegate.m in Sources */,
+				AF4C2CB72158DF3D00355CE3 /* LWDrinkCellViewModel.m in Sources */,
+				AF4C2CB42158DEC100355CE3 /* LWDrinkCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF4C2C992158DAB500355CE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4C2C9A2158DAB500355CE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4C2C9E2158DAB600355CE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4C2C9F2158DAB600355CE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4C2CA42158DAB600355CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF4C2CA52158DAB600355CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4C2CA72158DAB600355CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C50198704E7E40AE220ABA1 /* Pods-LWObjcStudyFactory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWObjcStudyFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeslieStudio.LWObjcStudyFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4C2CA82158DAB600355CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9498637E4B73D245FE9427B9 /* Pods-LWObjcStudyFactory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWObjcStudyFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeslieStudio.LWObjcStudyFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4C2C8B2158DAB500355CE3 /* Build configuration list for PBXProject "LWObjcStudyFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C2CA42158DAB600355CE3 /* Debug */,
+				AF4C2CA52158DAB600355CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4C2CA62158DAB600355CE3 /* Build configuration list for PBXNativeTarget "LWObjcStudyFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4C2CA72158DAB600355CE3 /* Debug */,
+				AF4C2CA82158DAB600355CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4C2C882158DAB500355CE3 /* Project object */;
+}
