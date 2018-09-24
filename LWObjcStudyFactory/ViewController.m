@@ -41,20 +41,10 @@
         [masonryViewArray addObject:cell];
     }
     
-//    [masonryViewArray mas_distributeViewsAlongAxis:MASAxisTypeVertical withFixedSpacing:10 leadSpacing:0 tailSpacing:0];
-//    [masonryViewArray mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.leading.trailing.equalTo(contentView);
-//    }];
-    
-    for (int i = 0 ; i< masonryViewArray.count; ++i) {
-        UIView *itemView = masonryViewArray[i];
-        [itemView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(contentView.mas_left).offset(10);
-            make.right.equalTo(contentView.mas_right).offset(0);
-            make.centerY.equalTo(contentView.mas_centerY).offset((i*16.5) + 2);
-            make.bottom.equalTo(contentView.mas_bottom).offset(-5);
-        }];
-    }
+    [masonryViewArray mas_distributeViewsAlongAxis:MASAxisTypeVertical withFixedSpacing:10 leadSpacing:0 tailSpacing:0];
+    [masonryViewArray mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.trailing.equalTo(contentView);
+    }];
 }
 
 - (NSArray *)cellViewModelList {
